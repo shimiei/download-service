@@ -1,0 +1,17 @@
+{
+  "name": "zcode-file-share-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local upload-only file sharing MCP server for ZCode",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "doctor": "node server.mjs --doctor"
+  },
+  "dependencies": {
+    "@file-kiwi/node": "^1.0.9",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  }
+}

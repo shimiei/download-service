@@ -1,0 +1,24 @@
+# 依赖与二进制
+node_modules/
+frp/
+
+# 凭据与运行时配置，不要提交
+file-share/service/config.json
+file-share/service/cookie-secret.txt
+file-share/data/
+file-share/service/storage/
+file-share/service/*.log
+file-share/service/*.pid
+file-share/service/.upload-quota.json
+
+# 运行时状态
+*.log
+*.pid
+*.tmp
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
